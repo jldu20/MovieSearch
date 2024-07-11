@@ -14,6 +14,11 @@ npm install
 ```
 start the back end services using the command...
 ```
+For testing purposes, create a .env file in the server folder with this: 
+MONGO_URI=mongodb+srv://acpham:p1gaBUKefs0nqRca@rattiganreview.x9ag4wu.mongodb.net/
+ACCESS_TOKEN_SECRET=379e470ee967867c65ba38d2f5b6350355bf2650dd94d0da70c0732e9cce1238
+REFRESH_TOKEN_SECRET=cf249e04063f8233559e7c4b93bc36c16a623ec528e593128213389916c2c745
+```
 node app.js
 ```
 You will then need to go into your second terminal.
