@@ -1,0 +1,22 @@
+/* CSS file to handle formatting for our Carousel component. */
+
+.carouselContainer {
+      display: 'flex';
+      justify-content: 'center';
+      flex-direction: 'row';
+      background-color: goldenrod;
+      margin-top:auto;
+}
+
+.page {
+      display: 'flex';
+      justify-content: 'center';
+      flex-direction: 'row';
+      background-color: goldenrod;
+}
+
+.button {
+      margin-left: 20px;
+      margin-right: 20px;
+      width:190px;
+}

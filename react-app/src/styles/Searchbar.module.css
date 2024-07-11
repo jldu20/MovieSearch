@@ -1,0 +1,67 @@
+/* CSS file to handle formatting for our Searchbar and LandingWelcome components. */
+
+.textField {
+    width: 50%;
+    background-color: white;
+    border-radius: 100px;
+    padding-bottom:10%;
+}
+.pagetitle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom:3%;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    text-decoration: solid;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    align-items:center;
+    border: none;
+    gap: 5px;
+    padding: 0%;    
+    padding-top: 8%;
+    padding-bottom: 10%;
+    background-image: url(../img/movie-background.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.searchbar fieldset {
+    border:none;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: none;
+    gap: 5px;
+    padding: 0%;    
+    padding-top: 10%;
+    padding-bottom: 4%;
+    background-image: url(../img/movie-background.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.welcometitle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 30%;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    text-decoration: solid;
+    text-shadow: 0px 0px 10px #000000;
+}

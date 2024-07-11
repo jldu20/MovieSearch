@@ -1,0 +1,20 @@
+/* CSS file to handle formatting for our Navbar component. */
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    clear:both;
+}
+
+.accs {
+    display:flex;
+    margin-left:30%;
+    flex-direction:row;
+    margin-left:auto;
+}
